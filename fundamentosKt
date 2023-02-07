@@ -1,3 +1,31 @@
+/*
 fun main() {
-  // println("o println serve para exibir textos no console")
+  println("Manu_ vocês ficaram sabendo que a Laysla terminou com aquele menino que ela estava namorando?")
+  println("<Gaby> sério?, eu sabia que eles estavam brigando")
+  println("<Nick> eu fiquei sabendo que ele tinha traido ela")
+  println("<Manu> isso eu não sei, mas ele já está com outra")
+  println("<Gaby> nossa e como a Laysla está?")
+  println("<Nick> da última vez que eu vi ela estava bem mal")
+  println("<Manu> ela está melhor")
+  println("<Gaby> então é por isso que o amigo dela estava procurando alguém para ela")
+  println("<Nick> pelo menos ele está tentando ajudar ela a superar")
+  println("<Manu> na mnha opinião ela deveria ficar um tempo solteira")
+  
+  //Variáveis - armazenam valores, dados, informações
+  
+  //val- não mutável - não podemos alterar seu valor
+  //var- mutável - podemos alterar o valor
+  //
+  //Tipos de variáveis:
+  //
+  //String -
+  //Int -
+  //Float -
+  //Double -
+  //long - 
+  //Boolean -
+  
+  
 }
+*/
+//------------------------------------------------------------------------------------
