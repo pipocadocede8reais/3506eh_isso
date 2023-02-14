@@ -90,3 +90,50 @@ println(15 % 2)
 // >= -> maior ou igual a...
 // <= -> menor ou igual a...
 }
+fun main() {
+ 
+// Operadores matemáticos
+//
+// + => adição
+// - => subtração
+// / => divisão
+// * => multiplicação
+// % => módulo - o resto de uma divisão
+
+ 
+//
+//Operadores Relacionais
+//
+//
+// == => igual a...
+// !  => diferente de...
+// >  => maior que...
+// <  => menor que...
+// >= -> maior ou igual a...
+// <= -> menor ou igual a...
+// 
+
+
+ var f1 = 24 
+ var f2 = 8 
+ var f3 = 12
+  
+ println("*************************************************")
+ println("**                                             **")
+ println("**                                             **")
+ println("**                                             **")
+ println("**           🙂Calculadora Mágica🙂           **")
+ println("**                                             **") 
+ println("**                                             **")
+ println("**                                             **")
+ println("**    Adição dos números $f1 e $f3               **")
+ println("**    Resutado da adição: " + (f1 + f3)               )
+ println("**                                             **")
+ println("**                                             **")
+ println("**    Mutiplicação dos números $f1 e $f2          **")
+ println("**    Resutado da multiplicação " + (f1 * f2)          )
+ println("**                                             **")
+ println("**                                             **")
+ println("**    Subtração dos números $f1 e $f3            **")
+ println("**    Resultado da subitração: " + (f1 - f3)             )           
+} 
