@@ -137,3 +137,77 @@ fun main() {
  println("**    Subtração dos números $f1 e $f3            **")
  println("**    Resultado da subitração: " + (f1 - f3)             )           
 } 
+//Condições
+    //
+    //condição simples
+    //
+    //if --> se...
+    //else --> senão...
+    
+  var lembreiDoChocolate = "Sim"
+    
+    if(lembreiDoChocolate == "Sim"){
+      println("Vou entregar o chocolate para você")    
+ }else{
+        println("Chocolate para todo mundo")
+   __-------------------------------------------------------------------
+   fun main() {
+    /*
+    //Condições
+    //
+    //condição simples
+    //
+    //if --> se...
+    //else --> senão...
+    
+  var lembreiDoChocolate = "Sim"
+    
+    if(lembreiDoChocolate == "Sim"){
+      println("Vou entregar o chocolate para você")    
+ }else{
+        println("Chocolate para todo mundo")
+}
+    
+    var show = "sim"
+    
+    if(show == "Sim"){
+        println("Vou no show do Bruno Mars")
+}else{
+    */
+        
+   /*     
+  //Condições compostas
+  
+  var coracoes = 1  
+        
+  if(coracoes == 5){ 
+      println("Você está ótimo!! Bom pra vc")
+  }else if(coracoes == 4){
+      println("Ce ta bem")
+  }else if(coracoes == 3){
+      println("Ce ta ok, pode comer miojo")
+  }else if(coracoes == 2){
+      println("vc não está muito bem!! se cuida! culpa do miojo")
+  }else(coracoes == 1){
+      println("vc está morrendo, vc tem direito a um advogado e a uma ligação")
+  }else{
+      println("tu ta morto")
+  }
+  */
+    
+    var idade = 18 
+    
+    if(idade <= 3){
+        println("Vc é um nenê")
+    }else if(idade <= 12){
+        println("vc é infantil!!")
+    }else if(idade <= 18){
+        println("tu é jovem! aprovite a vida")
+    }else(idade <= 60){
+        println("tu é adulto! pague a conta")
+    }else if(idade > 60){
+        println("que que há velhinho?")
+    }else{ 
+        println("vc n existe!!")
+    }
+}
