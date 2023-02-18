@@ -135,7 +135,15 @@ fun main() {
  println("**                                             **")
  println("**                                             **")
  println("**    Subtração dos números $f1 e $f3            **")
- println("**    Resultado da subitração: " + (f1 - f3)             )           
+ println("**    Resultado da subitração: " + (f1 - f3)             ) 
+ println("**                                             **")
+ println("**                                             **")
+ println("**    Divisão dos números $f1 e $f2               **")
+ println("**    Resutado da divisão: " + (f1 / f2)          )
+ println("**                                             **")
+ println("**                                             **")
+ println("**                                             **")
+ println("*************************************************")
 } 
 //Condições
     //
@@ -173,6 +181,8 @@ fun main() {
     if(show == "Sim"){
         println("Vou no show do Bruno Mars")
 }else{
+println("Não vou ao show do Bruno Mars")
+    } 
     */
         
    /*     
