@@ -221,3 +221,76 @@ println("Não vou ao show do Bruno Mars")
         println("vc n existe!!")
     }
 }
+----------------------------------------------------------------------------------------------------------------------------
+
+fun main() {
+   /*
+    var f1 = 24 
+ var f2 = 8 
+ var f3 = 12
+  
+ println("*************************************************")
+ println("**                                             **")
+ println("**                                             **")
+ println("**                                             **")
+ println("**           🙂Calculadora Mágica🙂           **")
+ println("**                                             **") 
+ println("**                                             **")
+ println("**                                             **")
+ println("**    Adição dos números $f1 e $f3               **")
+ println("**    Resutado da adição: " + (f1 + f3)               )
+ println("**                                             **")
+ println("**                                             **")
+ println("**    Mutiplicação dos números $f1 e $f2          **")
+ println("**    Resutado da multiplicação " + (f1 * f2)          )
+ println("**                                             **")
+ println("**                                             **")
+ println("**    Subtração dos números $f1 e $f3            **")
+ println("**    Resultado da subitração: " + (f1 - f3)             ) 
+ println("**                                             **")
+ println("**                                             **")
+ println("**    Divisão dos números $f1 e $f2               **")
+ println("**    Resutado da divisão: " + (f1 / f2)          )
+ println("**                                             **")
+ println("**                                             **")
+ println("**                                             **")
+ println("*************************************************")
+   */
+ // When - quando
+ // 
+ // Quando uma determinada condição for verdadeira, outra determinada
+ // ação será excutada:
+ // 
+ // Estrutura do When:
+ // 
+ // When(var){
+ // valor -> ação aser executada
+ // outroValor -> ação
+ // maisUm -> ação
+ // outro -> ação
+ // else -> ação
+ // }
+ // 
+ var mes = 2
+ 
+ when(mes){ 
+ 1 -> println("Acapulco - MEX")
+ 2 -> println("Paris - FRA")
+ 3 -> println("Berlim - ALE")
+ 4 -> println("Monaco - MON")
+ 5 -> println("Pequim - CHI")
+ 6 -> println("Acre - BRA")
+ 7 -> println("Roma - ITA")
+ 8 -> println("Atenas - GRE")
+ 9 -> println("Madrid - ESP")
+ 10 -> println("Manchester - ING")
+ 11 -> println("Dubai - EUA")
+  else -> println("São Paulo - BRA")
+ }
+ 
+   
+    
+    
+    
+    
+}
