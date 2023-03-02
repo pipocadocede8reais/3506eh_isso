@@ -294,3 +294,63 @@ fun main() {
     
     
 }
+//----------------------------------------------------------------------------------------
+fun main() {
+ 
+    // Laços de Repetição
+    // 
+    // while - enquanto
+    // for - para..
+    // do..white - faça.. enquanto
+    // repet - repita
+    
+    
+    //Laço While
+    //enquanto uma determinada condição for verdadeira, outra determinada 
+    //ação será executada
+    //
+    //Estrutura do While
+    //
+    // while(condição){
+    // ação
+    // } 
+    
+    
+    /*
+    var idade = 1 
+    
+    while(idade < 17){ 
+      println("$idade Creça, sério")
+      idade++   
+    } 
+      println("Diverta-se, você chegou até aqui, você merece")   
+    */
+    
+    // Laços do .. While
+    // 
+    //  uma determinada ação será executada, enquanto otra determinada condição for
+    //  verdadeira
+    //  
+    //  Estrutura do do.. While
+    //  do{ 
+    //  ação
+    //  } while(condição)
+    
+    /*
+   var idade = 1 
+     
+    do{ 
+   
+        println("$idade anos? Cresça, sério")
+        idade++
+    
+    }while(idade > 17)
+    */
+    
+   
+   var ano = 1 
+    
+    while(ano < 17){ 
+      
+      ano++    
+}}
