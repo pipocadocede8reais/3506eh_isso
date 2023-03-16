@@ -400,3 +400,34 @@ fun main() {
     tartaruga++
     }
 }
+?///////////////////////////////////////////////////////////
+var paciente007 = Paciente()
+    paciente007.nome = "James Bond"
+    paciente007.idade = 21 
+    paciente007.altura = 1.70 
+    paciente007.aleria = "pessoas" 
+    paciente007.tiposanguinio = "O+" 
+    paciente007.medicamento = 85.5 
+    paciente007.dependenteQuimico = true 
+      
+    println("***************Ficha Médica***************")   
+    println("Nome:")
+    println("Idade:")
+    println("Altura:")
+    println("Alergia:")
+    println("Tipo Sanguínio:")
+    println("Medicamento:")
+    println("DependenteQuimico:")    
+
+
+}
+ class Paciente(){
+     var nome = ""
+     var idade: 0 
+     var altura: 00.0 
+     var alergia: String 
+     var tipoSanguinio: String 
+     var medicamento: String 
+     var peso: Double
+     var dependenteQuimico: Boolean
+     
