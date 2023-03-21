@@ -431,3 +431,63 @@ var paciente007 = Paciente()
      var peso: Double
      var dependenteQuimico: Boolean
      
+ var jogador1 = jogadorDeFutebol("Neymar JR", "PSG", 10, "Brasil", "Puma", "Meia-Atacante", 200.0)
+    
+    
+   println(jogador1.nome) 
+    
+}
+class jogadorDeFutebol(var nome: String,
+                      var time: String,
+                      var numero: Int,
+                      var nacionalidade: String,
+                      var patrocinio: String,
+                      var posicao: String,
+                      var preco:Double){
+    
+   
+   var jogador2 = jogadorFut("Eric", 2 , "Defesa")
+   var jogador3 = jogadorFut("Pedro", 3 , "Defesa")     
+   var jogador4 = jogadorFut("Alison", 4 , "Defesa")
+   var jogador5 = jogadorFut("Alec", 5 , "Defesa")
+   var jogador6 = jogadorFut("Jake", 6 , "Meio-Campo")
+   var jogador7 = jogadorFut("Magnus", 7 , "Meio-Campo")
+   var jogador8 = jogadorFut("Sam", 8 , "Atacante")
+   var jogador9 = jogadorFut("Dean", 9 , "Atacante")
+   var jogador10 = jogadorFut("Hanry", 10 , "Atacante")
+   var jogador11 = jogadorFut("Steve", 11 , "Atacante") 
+   
+   //----------------------------------------------------------------
+   fun main() {
+   var jogador1 = jogadorDeFut("Mason", 1 , "Goleiro")
+   var jogador2 = jogadorDeFut("Eric", 2 , "Defesa")
+   var jogador3 = jogadorDeFut("Pedro", 3 , "Defesa")     
+   var jogador4 = jogadorDeFut("Alison", 4 , "Defesa")
+   var jogador5 = jogadorDeFut("Alec", 5 , "Defesa")
+   var jogador6 = jogadorDeFut("Jake", 6 , "Meio-Campo")
+   var jogador7 = jogadorDeFut("Magnus", 7 , "Meio-Campo")
+   var jogador8 = jogadorDeFut("Sam", 8 , "Atacante")
+   var jogador9 = jogadorDeFut("Dean", 9 , "Atacante")
+   var jogador10 = jogadorDeFut("Hanry", 10 , "Atacante")
+   var jogador11 = jogadorDeFut("Steve", 11 , "Atacante") 
+   
+   println(jogador1.nome)
+   println(jogador1.numero)
+   println(jogador1.posicao)
+   
+   println(jogador2.nome)
+   println(jogador2.numero)
+   println(jogador2.posicao)
+   
+   println(jogador3.nome)
+   println(jogador3.numero)
+   println(jogador3.posicao)
+}
+class jogadorDeFut(var nome: String ,
+                      var numero: Int ,
+                      var posicao: String,){
+    
+   
+   
+
+}
