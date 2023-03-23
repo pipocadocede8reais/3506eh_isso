@@ -491,3 +491,86 @@ class jogadorDeFut(var nome: String ,
    
 
 }
+//--------------------------------------------------------
+fun main() {
+  /*
+    var jogador1 = jogadorDeFut("Mason", 1 , "Goleiro")
+   var jogador2 = jogadorDeFut("Eric", 2 , "Defesa")
+   var jogador3 = jogadorDeFut("Pedro", 3 , "Defesa")     
+   var jogador4 = jogadorDeFut("Alison", 4 , "Defesa")
+   var jogador5 = jogadorDeFut("Alec", 5 , "Defesa")
+   var jogador6 = jogadorDeFut("Jake", 6 , "Meio-Campo")
+   var jogador7 = jogadorDeFut("Magnus", 7 , "Meio-Campo")
+   var jogador8 = jogadorDeFut("Sam", 8 , "Atacante")
+   var jogador9 = jogadorDeFut("Dean", 9 , "Atacante")
+   var jogador10 = jogadorDeFut("Hanry", 10 , "Atacante")
+   var jogador11 = jogadorDeFut("Steve", 11 , "Atacante") 
+   
+   println(jogador1.nome)
+   println(jogador1.numero)
+   println(jogador1.posicao)
+  println("********************************") 
+   println(jogador2.nome)
+   println(jogador2.numero)
+   println(jogador2.posicao)
+ println("********************************")  
+   println(jogador3.nome)
+   println(jogador3.numero)
+   println(jogador3.posicao) 
+   println("********************************")  
+   println(jogador4.nome)
+   println(jogador4.numero)
+   println(jogador4.posicao)
+   println("********************************")  
+   println(jogador5.nome)
+   println(jogador5.numero)
+   println(jogador5.posicao)
+   println("********************************")  
+   println(jogador6.nome)
+   println(jogador6.numero)
+   println(jogador6.posicao)
+   println("********************************")  
+   println(jogador7.nome)
+   println(jogador7.numero)
+   println(jogador7.posicao)
+   println("********************************")  
+   println(jogador8.nome)
+   println(jogador8.numero)
+   println(jogador8.posicao)
+   println("********************************")  
+   println(jogador9.nome)
+   println(jogador9.numero)
+   println(jogador9.posicao)
+   println("********************************")  
+   println(jogador10.nome)
+   println(jogador10.numero)
+   println(jogador10.posicao)
+   println("********************************")  
+   println(jogador11.nome)
+   println(jogador11.numero)
+   println(jogador11.posicao)
+   */
+    
+ //Métodos/funções - são um grupos de ações que representam uma determinada atividade de um
+ //determinado objeto
+ //
+ //Estrutura de um método no Kotlin
+ //
+ //fun nomeDela (parameratros - se tiver){ 
+ //ações
+ //
+ //}
+ //
+ //
+ //var nomeDoObjeto = ClasseDele()
+ //
+ //nomeDoObjeto.nomeDela
+    
+    
+}
+
+class jogadorDeFut(var nome: String ,
+                      var numero: Int ,
+                      var posicao: String,){
+    
+}
