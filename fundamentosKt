@@ -574,3 +574,60 @@ class jogadorDeFut(var nome: String ,
                       var posicao: String,){
     
 }
+//-------------------------------------------------------------------------
+fun main() {
+   //Estrutura de um método no Kotlin
+ //
+ //fun nomeDela (parameratros - se tiver){ 
+ //ações
+ //
+ //}
+ //
+ //
+ //var nomeDoObjeto = ClasseDele()
+ //
+ //nomeDoObjeto.nomeDela(parâmetros)
+ //
+ 
+  val contaCorrente = ContaBanco(174253789400012, 0.5, "Rogers")  
+    contaCorrente.consultarSaldo()
+    contaCorrente.Saque(0.3, 2984)
+    
+}
+
+class ContaBanco(val nem: Long, var saldo: Double, var dono: String){
+     
+    //Consultar o Saldo, Saque e Deposito
+    //
+    fun consultarSaldo(){
+        println("O saldo da sua conta é R$$saldo")
+        
+    }
+    
+    fun Saque(valor: Double, senha: Int){
+        
+       if(senha == 2984 ){
+           if(saldo >= valor){ 
+              saldo -= valor // vai Subtrair o Valor do Saldo
+              println("Saque de R$$valor realizado com sucesso")
+           }else if(valor <= 0){ 
+            println("Impossível sacar R$$valor")
+           }else{ 
+            println("Saldo Insuficiente, saque de R$$valor não realizado")
+          
+           }
+      
+       
+       }else{ 
+       println("Senha Incorreta!!")
+       }
+        
+    }
+    
+}
+
+
+
+
+
+
